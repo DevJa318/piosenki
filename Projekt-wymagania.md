@@ -1,15 +1,12 @@
 # Projekt piosenki - Zbieranie wymagań
 
-
-
-
-
-## Narzędzia 
+## Narzędzia
 ### GIT - kroki
 
-#### Problemy 
+#### Problemy
 - na stronie banch main - w lokalnym folderze master
-
+#### Pytania
+- co zrobić, żeby nie wpisywać loginu i PAK za każdym razem przy pushu
 
 #### żródło: https://bedeprogramistka.pl/jak-uzywac-git-huba-instalacja-i-obsluga-gita-krok-po-kroku/
 
@@ -24,7 +21,6 @@
 - git add . - dodawanie wszystkich plików
 - git status - podgląd wydarzenia
 - git commit -m "komentarz" - dodanie commita wraz z komentarzem 
-- git commit -m "komentarz"
 
 #### Łączenie z repozytorium na Githubie
 - utworzenie repozytorium na githubie
@@ -32,11 +28,6 @@
 - git push -u origin master
 - prosi o nazwę użytkownika i hasło --> a właściwie zamiast hasła o Personal Access Key
     - dostępny w Ustawienia ->  Developer settings -->      Personal access Tokens
-
-
-
-#### 
-
 
 ### Baza danych - NoSQL - MongoDB
 #### Pola
@@ -50,6 +41,42 @@
 
 ### Python
 
+#### Pseudokod
+dla każdego pliku pobierz tytuł i autora 
+
+
+
+for witryna in witryny
+    wyszukaj tytul autor
+    sprawdź czy pierwszy wynik zgadza się autor i tytuł
+    jeśli tak:
+        przejdź w link i pobierz tekst
+        break
+    jeśli nie:
+        przejdź do kolejnej witryny 
+
+Wyślij tekst do tłumacza
+pobierz pobrany tekst piosenki 
+
+with open database:
+    
+
+
+1. Stworzenie pliku init
+    1. Zastanowić się ile plików z "modułami" własnymi
+2. Importy
+    1. request
+    2. Beautifulsoup
+    3. mongodb
+    3. json?
+    4. os
+    5. eye3D - to extract mp3 metadata with Python
+
+
+####
+
+
+#### Użycie Klash
 #### Połączenie z bazą danych
 #### Wyszukiwanie napisów
 #### Obsługa wyjątków
