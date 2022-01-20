@@ -1,12 +1,44 @@
 # Projekt piosenki - Zbieranie wymagań
 
 
+## Linux run program in background
+& - add this sign at the end
+
+
+
 ## Wirtualne środowisko 
 Przechodzimy do naszego katalogu, po czym na potrzeby naszego programu, tworzymy wirtualne środowisko pracy, poleceniem:
+```
+```
+<!--- python3 -m venv <nazwa środowiska>
+$ source ./venv/bin/activate -->
+<!---
+your comment goes here
+and here
+-->
 
-$ python3 -m venv <nazwa środowiska>
-$ source ./venv/bin/activate
+[//]: # (This may be the most platform independent comment)
+### pipenv 
+Źródło: https://ichi.pro/pl/wirtualne-srodowiska-do-nauki-o-danych-uruchamianie-pythona-i-jupytera-z-pipenv-218576997098501
+```
+pip install pipenv
+	w folderze
+pipenv --python 3.10
+pipenv install beautifulsoup4 eyed3
+	ew,aby usunąć pipenv uninstall pandas
 
+
+
+	otwieranie jupyterlab z nowym środowiskiem
+	```
+pipenv install ipykernel
+
+python -m ipykernel install --user --display-name pipenv_test --name pipenv_test
+
+jupyter lab
+
+```
+https://ichi.pro/pl/wirtualne-srodowiska-do-nauki-o-danych-uruchamianie-pythona-i-jupytera-z-pipenv-218576997098501
 
 ## Narzędzia
 ### GIT - kroki
