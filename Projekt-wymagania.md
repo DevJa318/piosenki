@@ -1,5 +1,13 @@
 # Projekt piosenki - Zbieranie wymagań
 
+
+## Wirtualne środowisko 
+Przechodzimy do naszego katalogu, po czym na potrzeby naszego programu, tworzymy wirtualne środowisko pracy, poleceniem:
+
+$ python3 -m venv <nazwa środowiska>
+$ source ./venv/bin/activate
+
+
 ## Narzędzia
 ### GIT - kroki
 
@@ -71,6 +79,7 @@ with open database:
     3. json?
     4. os
     5. eye3D - to extract mp3 metadata with Python
+	    1. or tinytag?
 
 
 ####
